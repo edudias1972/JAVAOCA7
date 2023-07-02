@@ -13,6 +13,12 @@ public class concatenationString {
 		x += " and puppies ";
 		System.out.println(x);
 		
+		String name =  "Eduardo" ;
+		System.out.println(String.format("helo Mister %s  ", name));
+		
+		// Contando quantas letras tem no nome.length()
+		
+		System.out.println(name.length());
 	}
 
 }
